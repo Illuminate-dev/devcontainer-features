@@ -1,0 +1,15 @@
+{
+    "default_5.3": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils:1": {
+                "installZsh": false,
+                "installOhMyZsh": false,
+                "upgradePackages": true,
+                "username": "user"
+            },
+            "lua": {}
+        },
+        "remoteUser": "user"
+    }
+}

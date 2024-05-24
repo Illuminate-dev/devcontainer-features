@@ -1,0 +1,19 @@
+{
+    "name": "Lua",
+    "id": "lua",
+    "version": "1.0.0",
+    "description": "A feature to install and set up lua",
+    "options": {
+        "lua_version": {
+            "type": "string",
+            "enum": [
+                "5.3"
+            ],
+            "default": "5.3",
+            "description": "Choose the lua version to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
